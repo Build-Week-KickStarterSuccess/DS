@@ -8,6 +8,7 @@ pandas = "*"
 flask = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
+python-decouple = "*"
 
 [dev-packages]
 ipykernel = "*"
