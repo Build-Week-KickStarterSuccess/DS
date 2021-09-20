@@ -1,1 +1,1 @@
-web: gunicorn kickstarter_project/app
+web: gunicorn kickstarter_project:APP
