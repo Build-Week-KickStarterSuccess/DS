@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import numpy as np
+from decouple import config
 #import joblib
 
 DB = SQLAlchemy()
 APP = Flask(__name__)
 
-APP.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///db.sqlite3'
+APP.config["SQLALCHEMY_DATABASE_URI"] = config('DATABASE_URI')
 APP.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 DB.init_app(APP)
