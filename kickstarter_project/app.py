@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import numpy as np
-import joblib
+#import joblib
 
 DB = SQLAlchemy()
 APP = Flask(__name__)
@@ -14,9 +14,10 @@ DB.init_app(APP)
 @APP.route('/')
 def main():
         return render_template('landing.html')
-@APP.route('/about')
-def about():
-    return render_template('index.html')
+
+#@APP.route('/about')
+#def about():
+        #return render_template('index.html')
 
 if __name__ == '__main__':
-        APP.run()
+    APP.run
