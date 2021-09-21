@@ -1898,7 +1898,14 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
+	.form-group {
+		text-align:center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 
+	}
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
