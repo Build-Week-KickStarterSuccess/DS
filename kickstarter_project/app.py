@@ -18,10 +18,10 @@ def create_app():
         def main():
                 return render_template('landing.html')
 
-        #@APP.route('/about')
-        #def about():
-                #return render_template('index.html')
+        @APP.route('/about')
+        def about():
+                return render_template('index.html')
         return APP
 
 if __name__ == '__main__':
-    APP.run
+    APP.run()

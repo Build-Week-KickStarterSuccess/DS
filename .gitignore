@@ -2,6 +2,4 @@ Pipfile.lock
 .env
 *.csv
 kickstarter_project\model.ipynb
-back-end/
 DS/
-front-end/
