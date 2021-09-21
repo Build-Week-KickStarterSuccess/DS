@@ -9,6 +9,9 @@ flask = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 python-decouple = "*"
+matplotlib = "*"
+seaborn = "*"
+sklearn = "*"
 
 [dev-packages]
 ipykernel = "*"
