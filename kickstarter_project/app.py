@@ -21,6 +21,21 @@ def create_app():
         @APP.route('/about')
         def about():
                 return render_template('index.html')
+
+        @APP.route('/predict/', methods=['GET','POST'])
+        def predict():
+
+                if request.method == 'POST':
+                        # Get form data
+                        goal = request.form.get()
+                        month = request.form.get()
+                        year = request.form.get()
+                        duration = request.form.get()
+                        currency = request.form.get()
+                        country = request.form.get()
+                        main_category = request.form.get()
+                        time_since_last_project = request.form.get()
+
         return APP
 
 if __name__ == '__main__':
