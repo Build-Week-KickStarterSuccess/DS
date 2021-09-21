@@ -21,8 +21,13 @@ def create_app():
 
         @APP.route('/about')
         def about():
-                return render_template('index.html')
+                return render_template('index.html')\
 
+        return APP
+
+if __name__ == '__main__':
+    APP.run()
+'''
         @APP.route('/predict/', methods=['GET','POST'])
         def predict():
 
@@ -66,8 +71,4 @@ def create_app():
                 return prediction
 
         pass
-
-        return APP
-
-if __name__ == '__main__':
-    APP.run()
+'''
