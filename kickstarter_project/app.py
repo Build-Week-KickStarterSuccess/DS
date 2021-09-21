@@ -1,8 +1,9 @@
+import kickstarter_project
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import numpy as np
 from decouple import config
-#import joblib
+import joblib
 
 DB = SQLAlchemy()
 
@@ -35,6 +36,36 @@ def create_app():
                         country = request.form.get()
                         main_category = request.form.get()
                         time_since_last_project = request.form.get()
+
+                        try:
+                                prediction = preprocessDataAndPredict()
+
+                                return render_template('prediction.html', prediction = prediction)
+                        except ValueError:
+                                return "Please Enter valid values"
+                pass
+        pass
+
+        def preprocessDataAndPredict():
+
+                test_data = []
+
+                print(test_data)
+
+                test_data = np.array(test_data)
+
+                test_data = test_data.reshape(1, -1)
+                print(test_data)
+
+                file = open("kickstarter_project/model.pckl", "rb")
+                model = joblib.load(file)
+
+                prediction = model.predict(test_data)
+
+                print(prediction)
+                return prediction
+
+        pass
 
         return APP
 
