@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import numpy as np
 from decouple import config
-import joblib
+#import joblib
 
 DB = SQLAlchemy()
 
