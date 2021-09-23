@@ -1904,7 +1904,11 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-
+	}
+	.class_name {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	input[type="text"],
 	input[type="password"],
