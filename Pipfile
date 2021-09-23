@@ -12,6 +12,7 @@ python-decouple = "*"
 matplotlib = "*"
 seaborn = "*"
 sklearn = "*"
+xgboost = "*"
 
 [dev-packages]
 ipykernel = "*"
