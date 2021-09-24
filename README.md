@@ -36,11 +36,19 @@ We used a number of tools and libraries to create our application:
 
 ## How to Access
 
-1. Simply visit this [website](https://buildweektest.herokuapp.com/)<br/>
+1. Simply visit this [website](https://buildweektest.herokuapp.com/) and input your values.k<br/>
 _Note: Since we are using the free version of Heroku, it may take a few minutes to load._
 
 ## Links
 
 Application Link: https://buildweektest.herokuapp.com/<br/>
 Dataset Link: https://www.kaggle.com/kemical/kickstarter-projects?select=ks-projects-201801.csv
+
+## Contact
+
+Have a question? Let us know
+
+Arthur Yang:     [LinkedIn](https://www.linkedin.com/in/arthur-yang-4a954b1b/)  |  [GitHub](https://github.com/sysgear)<br/>
+Hunter Jordan:   [LinkedIn](https://www.linkedin.com/in/hunterjordanprofile/)  |  [GitHub](https://github.com/HunterJordan)<br/>
+Royce Roberts:   [LinkedIn](https://www.linkedin.com/in/royceroberts/)  |  [GitHub](https://github.com/jinjahninjah)
 
