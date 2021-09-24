@@ -36,7 +36,7 @@ We used a number of tools and libraries to create our application:
 
 ## How to Access
 
-1. Simply visit this [website](https://buildweektest.herokuapp.com/) and input your values.k<br/>
+1. Simply visit this [website](https://buildweektest.herokuapp.com/) and input your values.<br/>
 _Note: Since we are using the free version of Heroku, it may take a few minutes to load._
 
 ## Links
